@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="242.5" y="1253.0">ro.siit.homeworkProject.Dealer</node>
+    <node x="526.7649739583333" y="0.0">ro.siit.homeworkProject.GreenBonusCustomer</node>
+    <node x="449.97942708333335" y="778.0">ro.siit.homeworkProject.ro.siit.homeworkProject.service.GreenBonusProgramService</node>
+    <node x="964.3065104166667" y="1330.0">ro.siit.homeworkProject.ro.siit.homeworkProject.service.CustomerService</node>
+    <node x="10.5" y="1308.0">ro.siit.homeworkProject.ro.siit.homeworkProject.service.CarService</node>
+    <node x="558.3544270833333" y="1319.0">ro.siit.homeworkProject.ro.siit.homeworkProject.service.PurchaseService</node>
+    <node x="169.32070312499997" y="1554.0">ro.siit.homeworkProject.ro.siit.homeworkProject.service.DealerService</node>
+    <node x="176.75" y="492.0">ro.siit.homeworkProject.Car</node>
+    <node x="582.7502604166666" y="191.0">ro.siit.homeworkProject.GreenBonusProgram</node>
+    <node x="924.7502604166666" y="202.0">ro.siit.homeworkProject.Address</node>
+    <node x="906.2502604166666" y="624.0">ro.siit.homeworkProject.Customer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ro.siit.homeworkProject.Customer" target="ro.siit.homeworkProject.Address">
+      <point x="77.0" y="-213.5" />
+      <point x="1098.7502604166666" y="467.0" />
+      <point x="1086.4169270833333" y="467.0" />
+      <point x="64.66666666666674" y="114.5" />
+    </edge>
+    <edge source="ro.siit.homeworkProject.ro.siit.homeworkProject.service.DealerService" target="ro.siit.homeworkProject.Dealer">
+      <point x="84.66666666666669" y="-70.5" />
+      <point x="380.98736979166665" y="1529.0" />
+      <point x="409.75" y="1529.0" />
+      <point x="55.75" y="125.5" />
+    </edge>
+    <edge source="ro.siit.homeworkProject.ro.siit.homeworkProject.service.PurchaseService" target="ro.siit.homeworkProject.ro.siit.homeworkProject.service.GreenBonusProgramService">
+      <point x="-88.0" y="-59.5" />
+      <point x="646.3544270833333" y="1203.0" />
+      <point x="529.7294270833333" y="1203.0" />
+      <point x="-79.75" y="59.5" />
+    </edge>
+    <edge source="ro.siit.homeworkProject.ro.siit.homeworkProject.service.PurchaseService" target="ro.siit.homeworkProject.Customer">
+      <point x="146.66666666666663" y="-59.5" />
+      <point x="881.0210937499999" y="1233.0" />
+      <point x="944.7502604166666" y="1233.0" />
+      <point x="-77.0" y="213.5" />
+    </edge>
+    <edge source="ro.siit.homeworkProject.ro.siit.homeworkProject.service.DealerService" target="ro.siit.homeworkProject.Car">
+      <point x="-84.66666666666669" y="-70.5" />
+      <point x="211.65403645833328" y="1529.0" />
+      <point x="0.0" y="1529.0" />
+      <point x="0.0" y="1213.0" />
+      <point x="191.9375" y="1213.0" />
+      <point x="-106.3125" y="345.5" />
+    </edge>
+    <edge source="ro.siit.homeworkProject.Dealer" target="ro.siit.homeworkProject.Car">
+      <point x="-83.625" y="-125.5" />
+      <point x="270.375" y="1233.0" />
+      <point x="283.0625" y="1233.0" />
+      <point x="-15.1875" y="345.5" />
+    </edge>
+    <edge source="ro.siit.homeworkProject.ro.siit.homeworkProject.service.PurchaseService" target="ro.siit.homeworkProject.Car">
+      <point x="-146.66666666666652" y="-59.5" />
+      <point x="587.6877604166668" y="1213.0" />
+      <point x="404.5625" y="1213.0" />
+      <point x="106.3125" y="345.5" />
+    </edge>
+    <edge source="ro.siit.homeworkProject.ro.siit.homeworkProject.service.CustomerService" target="ro.siit.homeworkProject.Customer">
+      <point x="-51.75" y="-48.5" />
+      <point x="1016.0565104166667" y="1233.0" />
+      <point x="1021.7502604166666" y="1233.0" />
+      <point x="0.0" y="213.5" />
+    </edge>
+    <edge source="ro.siit.homeworkProject.GreenBonusProgram" target="ro.siit.homeworkProject.GreenBonusCustomer">
+      <point x="107.33333333333337" y="-125.5" />
+      <point x="851.0835937500001" y="166.0" />
+      <point x="802.1649739583333" y="166.0" />
+      <point x="122.39999999999998" y="70.5" />
+    </edge>
+    <edge source="ro.siit.homeworkProject.ro.siit.homeworkProject.service.GreenBonusProgramService" target="ro.siit.homeworkProject.GreenBonusCustomer">
+      <point x="-39.875" y="-59.5" />
+      <point x="569.6044270833333" y="467.0" />
+      <point x="566.5565104166667" y="467.0" />
+      <point x="566.5565104166667" y="166.0" />
+      <point x="618.5649739583332" y="166.0" />
+      <point x="-61.200000000000045" y="70.5" />
+    </edge>
+    <edge source="ro.siit.homeworkProject.ro.siit.homeworkProject.service.PurchaseService" target="ro.siit.homeworkProject.GreenBonusProgram">
+      <point x="29.33333333333337" y="-59.5" />
+      <point x="763.6877604166666" y="1233.0" />
+      <point x="780.4169270833333" y="1233.0" />
+      <point x="780.4169270833333" y="467.0" />
+      <point x="784.0002604166666" y="467.0" />
+      <point x="40.25" y="125.5" />
+    </edge>
+    <edge source="ro.siit.homeworkProject.ro.siit.homeworkProject.service.CarService" target="ro.siit.homeworkProject.Car">
+      <point x="53.00000000000006" y="-70.5" />
+      <point x="169.50000000000006" y="1233.0" />
+      <point x="252.6875" y="1233.0" />
+      <point x="-45.5625" y="345.5" />
+    </edge>
+    <edge source="ro.siit.homeworkProject.ro.siit.homeworkProject.service.GreenBonusProgramService" target="ro.siit.homeworkProject.GreenBonusProgram">
+      <point x="39.875" y="-59.5" />
+      <point x="649.3544270833333" y="467.0" />
+      <point x="623.0002604166666" y="467.0" />
+      <point x="-120.75" y="125.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="615.0" y="587.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
